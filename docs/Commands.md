@@ -6,7 +6,7 @@ title: Commands
 
 :::info Note
 ### Always remember the following!
-- The default prefix of Rythm is `!`. If you have changed your prefix to something else, please use your prefix instead of `!`. If you forget your prefix, mention Rythm (`@Rythm#3722`).
+- The default prefix of Rythm is `!!`. If you have changed your prefix to something else, please use your prefix instead of `!!`. If you forget your prefix, mention Rythm (`@Rythm#3722`).
 - **Never include `<>` in your messages when using a command!**
 - Time can be in different formats
    + Example: `100`, `1:50`, `2m30s`
@@ -15,22 +15,22 @@ title: Commands
 ## Song
 ---
 <!-- Song-related commands -->
-- **`!join`** - Summons the bot to the voice channel you are in.
+- **`!!join`** - Summons the bot to the voice channel you are in.
     - **Aliases:** `summon`
 ---
-- **`!play`** - Plays a song with the given name or url. [**More Info**](/play_song)
+- **`!!play`** - Plays a song with the given name or url. [**More Info**](/play_song)
     - **Usage:** `!play <link/query>`
     - **Alias:** `p`
 ---
-- **`!playtop`** - Adds a song with the given name/url __on the top of the queue__.
+- **`!!playtop`** - Adds a song with the given name/url __on the top of the queue__.
     - **Usage:** `!playtop <link/query>`
     - **Aliases:** `pt`, `ptop`
 ---
-- **`!playskip`** - Skips the current song and plays the song you requested.
+- **`!!playskip`** - Skips the current song and plays the song you requested.
     - **Usage:** `!playskip <link/query>`
     - **Aliases:** `ps`, `pskip`, `playnow`, `pn`
 ---
-- **`!search`** - Searches from [Youtube](https://www.youtube.com) for a song via your query and returns the top 10 results.
+- **`!!search`** - Searches from [Youtube](https://www.youtube.com) for a song via your query and returns the top 10 results.
     - **Usage:** `!search <query>`
     - **Alias:** `find`
 ---
@@ -63,7 +63,7 @@ title: Commands
 - **`!voteskip`** - Votes to skip the current playing song. **[More Info](/voteskip#how-many-votes-are-required-for-a-song-to-be-vote-skipped)**
     - **Alias:** `skip`, `next`, `s`
 ---
-- **`!forceskip`** - Skips the current playing song immediately.
+- **`!!forceskip`** - Skips the current playing song immediately.
     - **Other Usage:** `!forceskip <number>` - Skip a certain amount of songs.
     - **Aliases:** `fs`, `fskip`
     - **Note:** `DJ` role/`Manage Channels` permission required.
@@ -78,7 +78,7 @@ title: Commands
     - **Other Usage:** `!lyrics <song name>` - Gets the lyrics of the mentioned song.
     - **Aliases:** `l`, `ly`
 ---
-- **`!disconnect`** - Disconnects the bot from the voice channel it is in.
+- **`!!disconnect`** - Disconnects the bot from the voice channel it is in.
     - **Aliases:** `dc`, `leave`, `dis`
 ---
 
